@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>User Login</h2>
+
+<form id="loginForm">
+    <input type="email" id="email" placeholder="Email">
+    <br><br>
+
+    <input type="password" id="password" placeholder="Password">
+    <br><br>
+
+    <button type="submit">Login</button>
+</form>
+
+<script>
+document.getElementById("loginForm").addEventListener("submit" )
+
+    let email = document.getElementById("email").value.trim();
+    let password = document.getElementById("password").value;
+
+    
+
+    if (patient && patient.email === email && patient.password === password) {
+        alert("Login Successful");
+    } else {
+        alert("Incorrect Email or Password");
+    }
+;
+</script>
+
+</body>
+</html>

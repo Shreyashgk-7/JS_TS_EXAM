@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let count=0;
+        function  add(){
+            count++;
+            document.getElementById("count").innerText=count;
+        }
+        function  dec(){
+            count--;
+            document.getElementById("count").innerText=count;
+        }
+
+        function  reset(){
+            count=0;
+            document.getElementById("count").innerText=count;
+        }
+    </script>
+</head>
+<body>
+    <p id ="count">Start</p>
+    <button onclick="add()">Add Products</button>
+    <button onclick="dec()">Remove Product</button>
+    <button onclick="reset()">Reset Count</button>
+</body>
+</html>

@@ -1,0 +1,5 @@
+node -v 
+npm -v
+npm install -g typescript
+tsc (name of the file) // Used to Compile the program
+node (name of the cpompiled js file)

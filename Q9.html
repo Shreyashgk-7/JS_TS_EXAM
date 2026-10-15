@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      const li = document.createElementById("li");
+      li.innerText("CA");
+
+      const ul1 = document.getElementById("ul1");
+
+      ul1.append(li);
+    </script>
+  </head>
+  <body>
+    <ul id="ul1">
+      Products
+    </ul>
+
+    <button id="li">Add Product</button>
+  </body>
+</html>
